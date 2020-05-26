@@ -1,0 +1,5 @@
+rootProject.name='Jimuplus'
+include ':app'
+include ':base_lib'
+include ':ui_lib'
+include ':example_lib'

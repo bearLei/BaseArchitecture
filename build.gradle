@@ -1,0 +1,103 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+apply from: "dependencies.gradle"
+apply plugin: 'kotlin'
+buildscript {
+    ext.kotlin_version = '1.3.61'
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-allopen:$kotlin_version"
+        classpath "org.jetbrains.kotlin:kotlin-noarg:$kotlin_version"
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+
+        google()
+        jcenter()
+
+        maven {
+            url "${artifactory_url}/${artifactory_virtual_release}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+        maven {
+            url "${artifactory_url}/${artifactory_virtual_snapshot}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+        maven {
+            url "${artifactory_url}/${artifactory_jimu_release}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+        maven {
+            url "${artifactory_url}/${artifactory_jimu_snapshot}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+
+        maven {
+            url "${artifactory_url}/${artifactory_rose_release}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+
+        maven {
+            url "${artifactory_url}/${artifactory_rose_snapshot}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+
+        maven {
+            url "${artifactory_url}/${artifactory_rosa_release}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+
+        maven {
+            url "${artifactory_url}/${artifactory_rosa_snapshot}"
+            credentials {
+                username = artifactory_username
+                password = artifactory_password
+            }
+        }
+
+        //for DSBridge
+        maven { url 'https://jitpack.io' }
+    }
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+
