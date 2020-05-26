@@ -46,5 +46,13 @@ dependencies {
     api rootProject.ext.dependencies["rxjava"]
     api rootProject.ext.dependencies["rxandroid"]
     api rootProject.ext.dependencies["lifecycle"]
+
+//    http
+    api rootProject.ext.dependencies["retrofit"]
+    api rootProject.ext.dependencies["rxadapter"]
+    api rootProject.ext.dependencies["converter"]
+    api rootProject.ext.dependencies["okHttp"]
+    api rootProject.ext.dependencies["okhttp3-logging-interceptor"]
+    api rootProject.ext.dependencies["disklrucache-android"]
     api 'com.ubtech.jimu:alog:0.1.0-SNAPSHOT'
 }

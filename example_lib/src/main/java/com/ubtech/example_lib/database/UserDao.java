@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData;
 import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
+import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 import androidx.room.Update;
 
@@ -28,16 +29,13 @@ public interface UserDao {
      */
     @Insert
     void insert01(UserInfo userInfo);
-//    @Insert
-//    Maybe<Long> insert02(UserInfo userInfo);
-//    @Insert
-//    Maybe<List<Long>> insert03(List<UserInfo> userInfoList);
-//    @Insert
-//    Single<List<Long>> insert04(List<UserInfo> userInfoList);
-//
-//
-//    @Insert
-//    LiveData<List<UserInfo>> insert05(UserInfo userInfo);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    Maybe<Long> insert02(UserInfo userInfo);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    Maybe<List<Long>> insert03(List<UserInfo> userInfoList);
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    Single<List<Long>> insert04(List<UserInfo> userInfoList);
+
 
 
     /**
@@ -59,8 +57,8 @@ public interface UserDao {
 //    @Delete
 //    Single<Integer> deleteAll(List<UserInfo> userInfoList);
 //
-//    @Delete
-//    Single<Integer> delete01(UserInfo userInfo);
+    @Delete
+    Single<Integer> delete01(UserInfo userInfo);
 
     @Delete
     Completable delete02(UserInfo userInfo);

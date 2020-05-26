@@ -1,12 +1,9 @@
 package com.ubtech.example_lib.database;
 
 import android.app.Application;
-
 import androidx.lifecycle.LiveData;
-
 import com.ubtech.base_lib.architecture.mvvm.BaseRepository;
 import com.ubtrobot.log.ALog;
-
 import java.util.List;
 
 /**
@@ -37,6 +34,12 @@ public class UserRepository extends BaseRepository {
             mDao.insert01(info);
         });
     }
+
+
+    /**
+     * http handle
+     */
+
 
 
 }

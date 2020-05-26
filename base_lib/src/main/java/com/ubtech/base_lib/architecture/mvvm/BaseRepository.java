@@ -12,10 +12,38 @@ import com.ubtrobot.log.ALog;
  */
 public class BaseRepository {
 
-    protected void launchDB(Consumer consumer){
+    /**
+     * 数据库操作
+     *
+     * @param consumer
+     */
+    protected void launchDB(Consumer consumer) {
         ThreadExecutorUtil.getInstance().doTask(() -> {
             ALog.tag("lei").d("launchDB");
-            consumer.accept(true);
+            try {
+                consumer.accept(true);
+            } catch (Exception e) {
+
+            } finally {
+
+            }
+        });
+    }
+
+    /**
+     * 网络操作
+     *
+     * @param consumer
+     */
+    protected void launchHttp(Consumer consumer) {
+        ThreadExecutorUtil.getInstance().doTask(() -> {
+            try {
+                consumer.accept(null);
+            } catch (Exception e) {
+
+            } finally {
+
+            }
         });
     }
 }
