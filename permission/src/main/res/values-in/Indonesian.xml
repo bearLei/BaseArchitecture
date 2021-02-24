@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">Izin</string>
+    <string name="permission_message_permission_denied">Aplikasi Jimu tidak memiliki izin %s sekarang.</string>
+    <string name="permission_message_permission_rationale">Untuk menggunakan fungsi ini, \n silakan buka izin %s untuk aplikasi Jimu.</string>
+    <string name="permission_prompt_open_permission_help">Untuk menggunakan fungsi ini, \n silakan buka izin %s untuk aplikasi Jimu. \n Klik untuk melihat bantuan.</string>
+    <string name="permission_dialog_negative_btn_text">Batalkan</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Pergi ke</string>
+    <string name="permission_text_permission_rationale_positive_btn">Buka</string>
+    <string name="permission_prompt_open_permission_by_settings">Untuk menggunakan fungsi ini, silakan buka Pengaturan di perangkat Anda dan buka izin %s untuk aplikasi Jimu.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">baik</string>
+    <string name="permission_location">posisi</string>
+    <string name="permission_storage">penyimpanan</string>
+    <string name="permission_camera">kamera</string>
+    <string name="permission_record">merekam</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Buka Pengaturan&gt; Bluetooth untuk mengaktifkan Bluetooth.</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="transparent">
+        <item name="android:windowBackground">@color/base_00000000</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="translucence">
+        <item name="android:windowBackground">@color/base_80212121</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="white">
+        <item name="android:windowBackground">@color/base_ffffff</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <declare-styleable name="BaseHeadView">
+        <attr name="LeftImg" format="reference" />
+        <attr name="RightImg" format="reference" />
+        <attr name="Title" format="reference" />
+        <attr name="TitleGone" format="boolean" />
+        <attr name="RightTitle" format="reference" />
+        <attr name="RightImgGone" format="boolean" />
+        <attr name="ShowRightTitle" format="boolean" />
+    </declare-styleable>
+
+    <style name="buttonStyle">
+        <item name="android:background">@drawable/shape_common_btn</item>
+        <item name="android:textColor">@color/base_ffffff</item>
+        <item name="android:minWidth">@dimen/dp_132</item>
+        <item name="android:minHeight">@dimen/dp_37</item>
+    </style>
+    <style name="dialog_theme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item> <!--Dialog的windowFrame框为无-->
+        <item name="android:windowIsFloating">true</item><!-- 是否漂现在activity上-->
+        <item name="android:windowIsTranslucent">true</item><!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item><!-- dim:模糊的 阴影效果 -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+</resources>

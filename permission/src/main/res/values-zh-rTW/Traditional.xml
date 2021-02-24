@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">權限</string>
+    <string name="permission_message_permission_denied">當前App無%s權限</string>
+    <string name="permission_message_permission_rationale">為了保證功能的正常使用，\n請開啟%s權限</string>
+    <string name="permission_prompt_open_permission_help">為了保證Jimu的正常使用，\n需要您為Jimu App開啟%s權限！ \n具體操作請點擊幫助查看。</string>
+    <string name="permission_dialog_negative_btn_text">取消</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">前往</string>
+    <string name="permission_text_permission_rationale_positive_btn">開啟</string>
+    <string name="permission_prompt_open_permission_by_settings">為了保證功能的正常使用，請前往設置為Jimu app開啟%s權限</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">好的</string>
+    <string name="permission_location">位置</string>
+    <string name="permission_storage">存儲</string>
+    <string name="permission_camera">相機</string>
+    <string name="permission_record">記錄</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">請在設定&gt;藍牙中將藍牙開啟</string>
+</resources>

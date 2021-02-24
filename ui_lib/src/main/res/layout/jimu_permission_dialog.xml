@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/all_bg">
+
+
+    <Button
+        android:id="@+id/bnt_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:background="@drawable/sel_dialog_left_btn"
+        android:textColor="@color/base_ffffff"
+        android:textSize="@dimen/sp_16"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="W,435:138"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/view"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="W,3:2"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintLeft_toRightOf="@+id/bnt_left"
+        app:layout_constraintRight_toLeftOf="@+id/bnt_right"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/bnt_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0"
+        android:background="@drawable/sel_dialog_right_btn"
+        android:textColor="@color/base_ffffff"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="W,435:138"
+        app:layout_constraintHeight_percent="0.12"
+        app:layout_constraintLeft_toRightOf="@+id/view"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.85"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0">
+
+        <ImageView
+            android:id="@+id/im_start_line"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/dialog_line"
+            app:layout_constraintBottom_toBottomOf="@+id/pro_dialog"
+            app:layout_constraintLeft_toLeftOf="@+id/pro_dialog"
+            app:layout_constraintRight_toRightOf="@+id/pro_dialog"
+            app:layout_constraintTop_toTopOf="@+id/pro_dialog" />
+
+        <ImageView
+            android:id="@+id/im_start_line_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/dialog_line_start"
+            app:layout_constraintBottom_toBottomOf="@+id/pro_dialog"
+            app:layout_constraintHeight_percent="0.004"
+            app:layout_constraintLeft_toLeftOf="@+id/pro_dialog"
+            app:layout_constraintRight_toRightOf="@+id/pro_dialog"
+            app:layout_constraintTop_toTopOf="@+id/pro_dialog" />
+
+        <com.ubtech.ui_lib.dialog.BgView
+            android:id="@+id/pro_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

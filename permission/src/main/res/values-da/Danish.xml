@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">Tilladelse</string>
+    <string name="permission_message_permission_denied">Jimu app har ingen %s tilladelse nu.</string>
+    <string name="permission_message_permission_rationale">Til bruge denne funktion, \n venligst åbne den %s tilladelse til Jimu app.</string>
+    <string name="permission_prompt_open_permission_help">Til bruge denne funktion, \n venligst åbne den %s tilladelse til Jimu app. \n Klik at se hjælp.</string>
+    <string name="permission_dialog_negative_btn_text">Annullér</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Gå til</string>
+    <string name="permission_text_permission_rationale_positive_btn">Åbn</string>
+    <string name="permission_prompt_open_permission_by_settings">For at sikre normal brug af funktionen, skal du gå til indstillingen for at åbne tilladelsen til %s for Jimu-appen.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">OK</string>
+    <string name="permission_location">Beliggenhed</string>
+    <string name="permission_storage">Hukommelse</string>
+    <string name="permission_camera">kamera</string>
+    <string name="permission_record">optage</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Gå til indstillinger &gt; Bluetooth for at tænde slå Bluetooth til</string>
+</resources>

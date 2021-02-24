@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">Genehmigung</string>
+    <string name="permission_message_permission_denied">Die Jimu App hat jetzt keine %s Zulassung.</string>
+    <string name="permission_message_permission_rationale">Um diese Funktion zu verwenden, öffnen Sie \n bitte die %s Zulassung für die Jimu App.</string>
+    <string name="permission_prompt_open_permission_help">Um diese Funktion zu verwenden, öffnen Sie\n bitte die %s Zulassung für die Jimu App. Klicken Sie auf \n für Hilfe.</string>
+    <string name="permission_dialog_negative_btn_text">Abbrechen</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Gehen Sie zu</string>
+    <string name="permission_text_permission_rationale_positive_btn">Öffnen</string>
+    <string name="permission_prompt_open_permission_by_settings">Um die normale Nutzung der Funktion sicherzustellen, gehen Sie bitte zu der Einstellung, um die %s Berechtigung für die Jimu-App zu öffnen.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">Ok</string>
+    <string name="permission_location">Standort</string>
+    <string name="permission_storage">Lagerung</string>
+    <string name="permission_camera">Kamera</string>
+    <string name="permission_record">Aufzeichnung</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Navigieren Sie zu „Einstellungen &gt; Bluetooth“, um Bluetooth zu aktivieren.</string>
+</resources>

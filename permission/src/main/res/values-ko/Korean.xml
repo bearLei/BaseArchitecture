@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">허가</string>
+    <string name="permission_message_permission_denied">Jimu앱은 지금은 아무런 %s 권한이 없습니다.</string>
+    <string name="permission_message_permission_rationale">이 기능을 사용하려면 \n Jimu 앱에 대한 %s 권한을여십시오.</string>
+    <string name="permission_prompt_open_permission_help">이 기능을 사용하려면 \n Jimu 앱에 대한 %s 권한을여십시오. \n 도움말을 보려면 클릭하십시오.</string>
+    <string name="permission_dialog_negative_btn_text">취소</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">이동</string>
+    <string name="permission_text_permission_rationale_positive_btn">열기</string>
+    <string name="permission_prompt_open_permission_by_settings">이 기능을 정상적으로 사용하려면 설정으로 이동하여 Jimu 앱에 대한 %s 권한을여십시오.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">확인</string>
+    <string name="permission_location">위치</string>
+    <string name="permission_storage">저장</string>
+    <string name="permission_camera">카메라</string>
+    <string name="permission_record">기록</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">설정 &gt; 블루투스로 가서 블루투스를 켭니다.</string>
+</resources>

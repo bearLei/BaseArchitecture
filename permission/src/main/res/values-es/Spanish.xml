@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">Permiso</string>
+    <string name="permission_message_permission_denied">La app de Jimu no tiene %s de permiso ahora.</string>
+    <string name="permission_message_permission_rationale">Para hacer uso de esta función, /n por favor abre el %s de permiso para la app de Jimu.</string>
+    <string name="permission_prompt_open_permission_help">Para hacer uso de esta función, /n por favor abre el %s de permiso para la app de Jimu.</string>
+    <string name="permission_dialog_negative_btn_text">Cancelar</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Ir a</string>
+    <string name="permission_text_permission_rationale_positive_btn">Abrir</string>
+    <string name="permission_prompt_open_permission_by_settings">Para garantizar el uso normal de la función, vaya a la configuración para abrir el permiso %s para la aplicación Jimu.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">Ok</string>
+    <string name="permission_location">Ubicación</string>
+    <string name="permission_storage">Almacenamiento</string>
+    <string name="permission_camera">Cámara</string>
+    <string name="permission_record">grabar</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Vaya a Configuración &gt; Bluetooth para activar la conexión Bluetooth.</string>
+</resources>

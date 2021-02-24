@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">разрешение</string>
+    <string name="permission_message_permission_denied">Приложение Jimu не имеет разрешений %s.</string>
+    <string name="permission_message_permission_rationale">Для использования данной функции, \n откройте %s разрешение для приложения Jimu.</string>
+    <string name="permission_prompt_open_permission_help">Для использования данной функции, \n откройте %s разрешени для приложения Jimu. \n Нажмите, чтобы просмотреть помощь.</string>
+    <string name="permission_dialog_negative_btn_text">отмена</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Перейти к</string>
+    <string name="permission_text_permission_rationale_positive_btn">открыть</string>
+    <string name="permission_prompt_open_permission_by_settings">Чтобы обеспечить нормальное использование функции, перейдите в настройку, чтобы открыть разрешение %s для приложения Jimu.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">хорошо</string>
+    <string name="permission_location">расположение</string>
+    <string name="permission_storage">память</string>
+    <string name="permission_camera">камера</string>
+    <string name="permission_record">запись</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Перейдите в Настройки &gt; Bluetooth, чтобы включить Bluetooth.</string>
+</resources>

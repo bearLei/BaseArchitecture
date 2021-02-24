@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">Permission</string>
+    <string name="permission_message_permission_denied">Jimu app has no %s permission now.</string>
+    <string name="permission_message_permission_rationale">To use this function, \n please open the %s permission for JimuGo app.</string>
+    <string name="permission_dialog_negative_btn_text">Cancel</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Go to</string>
+    <string name="permission_text_permission_rationale_positive_btn">Open</string>
+    <string name="permission_prompt_open_permission_by_settings">To use this function, please go to Settings on your device and open the %s permission for the JimuGo app.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">OK</string>
+    <string name="permission_location">position</string>
+    <string name="permission_storage">storage</string>
+    <string name="permission_camera">camera</string>
+    <string name="permission_record">record</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Go to Settings &gt; Bluetooth to turn on Bluetooth.</string>
+</resources>

@@ -46,4 +46,12 @@ dependencies {
     implementation project(':base_lib')
     implementation project(':ui_lib')
     implementation  rootProject.ext.dependencies["autosize"]
+    implementation "com.squareup.okhttp3:okhttp:3.9.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:3.9.0"
+    implementation "com.squareup.retrofit2:retrofit:2.6.1"
+    implementation "com.squareup.retrofit2:converter-gson:2.6.1"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:2.6.1"
+    implementation "androidx.room:room-runtime:2.2.3"
+    implementation "androidx.room:room-rxjava2:2.2.3"
+    implementation "androidx.room:room-compiler:2.2.3"
 }

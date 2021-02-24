@@ -47,4 +47,5 @@ dependencies {
     api rootProject.ext.dependencies["rxandroid"]
     api rootProject.ext.dependencies["lifecycle"]
     api 'com.ubtech.jimu:alog:0.1.0-SNAPSHOT'
+    api "androidx.constraintlayout:constraintlayout:1.1.3"
 }

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">การอนุญาต</string>
+    <string name="permission_message_permission_denied">แอป Jimu ไม่ได้รับอนุญาต %s ในขณะนี้</string>
+    <string name="permission_message_permission_rationale">หากต้องการใช้ฟังก์ชันนี้ \n โปรดเปิดการอนุญาต %s สำหรับแอป Jimu</string>
+    <string name="permission_prompt_open_permission_help">หากต้องการใช้ฟังก์ชันนี้ \n โปรดเปิดการอนุญาต%s สำหรับแอป Jimu \n คลิกเพื่อดูความช่วยเหลือ</string>
+    <string name="permission_dialog_negative_btn_text">ยกเลิก</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">ไปที่</string>
+    <string name="permission_text_permission_rationale_positive_btn">เปิด</string>
+    <string name="permission_prompt_open_permission_by_settings">ในการใช้ฟังก์ชั่นนี้โปรดไปที่การตั้งค่าบนอุปกรณ์ของคุณและเปิดการอนุญาต %s สำหรับแอพ Jimu</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">ตกลง</string>
+    <string name="permission_location">ตำแหน่ง</string>
+    <string name="permission_storage">การเก็บรักษา</string>
+    <string name="permission_camera">กล้อง</string>
+    <string name="permission_record">บันทึก</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">ไปที่การตั้งค่า &gt; บลูทู ธ เพื่อเปิดบลูทู ธ</string>
+</resources>

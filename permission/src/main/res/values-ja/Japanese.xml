@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">許可</string>
+    <string name="permission_message_permission_denied">現在Jimuアプリに %sの許可はありません。</string>
+    <string name="permission_message_permission_rationale">この機能を使用するには、\n Jimuアプリの為の%sの許可設定を開いてください。</string>
+    <string name="permission_prompt_open_permission_help">この機能を使用するには、\n Jimuアプリの為の%sの許可設定を開いてください。 \n クリックするとヘルプが見れます。</string>
+    <string name="permission_dialog_negative_btn_text">キャンセル</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">移動</string>
+    <string name="permission_text_permission_rationale_positive_btn">開く</string>
+    <string name="permission_prompt_open_permission_by_settings">機能を正常に使用するためには、Jimuアプリの%s権限を開く設定に移動してください。</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">OK</string>
+    <string name="permission_location">場所</string>
+    <string name="permission_storage">ストレージ</string>
+    <string name="permission_camera">カメラ</string>
+    <string name="permission_record">記録</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">[設定] &gt; [Bluetooth] に進み、Bluetooth をオンにします。</string>
+</resources>

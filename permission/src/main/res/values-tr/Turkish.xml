@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Auto generated file, do not edit it!-->
+<!--Tools version 0.0.3-snapshot-->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="permission_app_name">izin</string>
+    <string name="permission_message_permission_denied">Jimu uygulamasının şu anda %s izni bulunmuyor.</string>
+    <string name="permission_message_permission_rationale">Bu işlevi kullanmak için, \n lütfen Jimu uygulaması için %s iznini açın.</string>
+    <string name="permission_prompt_open_permission_help">Bu işlevi kullanmak için, \n lütfen Jimu uygulaması için %s iznini açın. \n Yardımı görmek için tıklayın.</string>
+    <string name="permission_dialog_negative_btn_text">Iptal et</string>
+    <string name="permission_text_permission_denied_forever_positive_btn">Gidin:</string>
+    <string name="permission_text_permission_rationale_positive_btn">Aç</string>
+    <string name="permission_prompt_open_permission_by_settings">Fonksiyonun normal kullanımını sağlamak için lütfen Jimu uygulaması için %s iznini açmak üzere ayarlara gidin.</string>
+    <string name="permission_button_text_permission_denied_warning_dialog">iyi</string>
+    <string name="permission_location">konum</string>
+    <string name="permission_storage">hafıza</string>
+    <string name="permission_camera">kamera</string>
+    <string name="permission_record">kayıt</string>
+    <string name="permission_waring_text_bluetooth_enable_failed">Bluetooth\'u açmak için Ayarlar&gt; Bluetooth\'a gidin.</string>
+</resources>
